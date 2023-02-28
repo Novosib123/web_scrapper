@@ -5386,3 +5386,16 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'bicycle', 'Name': 'Saivilas  Ch', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': "Best quality worth buying it best cycle for 5.4 to 6 feet person cycle quality is just awesome very strong quality and cycle colour is matte finish and logos are printed no sticker and I love this thing seat is hard it'll give you pain so I recommend to buy a soft seat cover"}, {'Product': 'bicycle', 'Name': 'Rik Mukherjee', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Very good'}, {'Product': 'bicycle', 'Name': 'Anmol  Thakur', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Dont Think Just Buy.'}, {'Product': 'bicycle', 'Name': 'Jishu Krishna Bharali', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Great'}, {'Product': 'bicycle', 'Name': 'Mohammad  Shahid ', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Cycle is good by quality and look wise. They promise me many times to installation my cycle but they are unable to do that. However, after 2 months my cycle installation completed by third party.Note:- sometimes, rear gear malfunction.'}, {'Product': 'bicycle', 'Name': 'Heaven Lal D.', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Excellent Cycle. I tried to buy one more, but it is out of stock now.'}, {'Product': 'bicycle', 'Name': 'Alan  Mathew', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Good cycle at this price range. You have to do gear tuning for smooth shifting of gears.'}, {'Product': 'bicycle', 'Name': 'Santanu  Guin', 'Rating': '3', 'CommentHead': 'Nice', 'Comment': 'I am 5\'7", this cycle is little higher me. It is suitable for a person who is taller than 5\'10". Both suspensions are good for nothing. Gear shifting is not smooth. Seat is small and hard. You should go for another cycle in this price section.'}, {'Product': 'bicycle', 'Name': 'Akepogu Dinesh', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'Tightly runNot speed for normal cycle'}, {'Product': 'bicycle', 'Name': 'Nikhil P', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Nice good'}, {'Product': 'bicycle', 'Name': 'Nikhil P', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Nice good'}]
+INFO:werkzeug:172.18.0.2 - - [01/Mar/2023 02:20:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [01/Mar/2023 02:20:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [01/Mar/2023 02:20:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
